@@ -1,21 +1,26 @@
 {
-	"name": "Landing Page Mobil",
-	"short_name": "Landing Page Mobil",
+	"name": "Landing page Mobil",
+	"short_name": "Landing page Mobil",
 	"icons": [
 		{
-			"src": "/car.png",
+			"src": "/image.png",
 			"sizes": "192x192",
 			"type": "image/png",
 			"purpose": "any maskable"
 		},
 		{
-			"src": "/ccar.png",
+			"src": "/image.png",
 			"sizes": "384x384",
 			"type": "image/png"
 		},
 		{
-			"src": "/car.png",
+			"src": "/image.png",
 			"sizes": "512x512",
+			"type": "image/png"
+		},
+		{
+			"src": "/image.png",
+			"sizes": "1920x1080",
 			"type": "image/png"
 		}
 	],

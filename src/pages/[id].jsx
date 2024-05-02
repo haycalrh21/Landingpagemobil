@@ -20,7 +20,9 @@ function CarDetail({ car }) {
 
 export async function getServerSideProps(context) {
 	const { id } = context.params;
-	const response = await fetch(`http://localhost:3000/api/mobil/${id}`); // Update URL untuk match dengan dynamic API route
+	const response = await fetch(
+		`https://landingpagemobil.vercel.app//api/mobil/${id}`
+	); // Update URL untuk match dengan dynamic API route
 	const car = await response.json();
 
 	return {

@@ -1,11 +1,7 @@
+import formatRupiah from "@/libs/formatRupiah";
 import { motion } from "framer-motion";
 
 export function DetailPage({ car }) {
-	function formatRupiah(number) {
-		const format = number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
-		return `Rp${format}`;
-	}
-
 	return (
 		<div>
 			<div className='grid grid-cols-1 lg:grid-cols-2 gap-8 p-4 md:p-8 lg:p-12'>
