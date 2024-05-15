@@ -39,7 +39,7 @@ export function Landing({ mobils }) {
 			<main>
 				<AnimatedSection>
 					<section className='w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-[#ff5a5f] to-[#ff7b7b]'>
-						<div className='container px-4 md:px-6'>
+						<div className='container mx-auto px-4 md:px-6 text-center'>
 							<div className='grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]'>
 								<div className='flex flex-col justify-center space-y-4 text-white'>
 									<div className='space-y-2'>
@@ -85,7 +85,7 @@ export function Landing({ mobils }) {
 				</AnimatedSection>
 				<AnimatedSection>
 					<section className='w-full py-12 md:py-24 lg:py-32' id='whyus'>
-						<div className='container space-y-12 px-4 md:px-6'>
+						<div className='container mx-auto px-4 md:px-6 text-center'>
 							<div className='flex flex-col items-center justify-center space-y-4 text-center'>
 								<div className='space-y-2'>
 									<div className='inline-block rounded-lg bg-[#ff5a5f]/20 px-3 py-1 text-sm text-[#ff5a5f]'>
@@ -160,7 +160,7 @@ export function Landing({ mobils }) {
 
 				<AnimatedSection>
 					<section className='w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-[#ff5a5f] to-[#ff7b7b]'>
-						<div className='container space-y-12 px-4 md:px-6'>
+						<div className='container mx-auto px-4 md:px-6 text-center'>
 							<div className='flex flex-col items-center justify-center space-y-4 text-center text-white'>
 								<div className='space-y-2'>
 									<div className='inline-block rounded-lg bg-white/20 px-3 py-1 text-sm'>
@@ -206,7 +206,8 @@ export function Landing({ mobils }) {
 
 				<AnimatedSection>
 					<section className='w-full py-12 md:py-24 lg:py-32' id='hubungi'>
-						<div className='container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10'>
+						<div className='container  mx-auto grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10'>
+							{/* <div className='container mx-auto px-4 md:px-6 text-center'> */}
 							<div className='space-y-2'>
 								<h2 className='text-3xl font-bold tracking-tighter md:text-4xl/tight'>
 									Hubungi Kami
